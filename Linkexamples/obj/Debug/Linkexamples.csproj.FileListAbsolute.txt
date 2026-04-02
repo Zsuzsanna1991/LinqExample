@@ -1,0 +1,7 @@
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\bin\Debug\Linkexamples.exe.config
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\bin\Debug\Linkexamples.exe
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\bin\Debug\Linkexamples.pdb
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\obj\Debug\Linkexamples.csproj.AssemblyReference.cache
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\obj\Debug\Linkexamples.csproj.CoreCompileInputs.cache
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\obj\Debug\Linkexamples.exe
+C:\Szoftverfejlesztés és tesztelés\C#\Konzol alkalmazás\Linkexamples\Linkexamples\obj\Debug\Linkexamples.pdb

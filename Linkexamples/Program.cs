@@ -18,14 +18,21 @@ namespace Linkexamples
          };
         static void Main(string[] args)
         {
+            //Játékok átlagárának kiszámítása
+
+            var avgPrice = games.Average(x => x.Price);
+            Console.WriteLine(avgPrice);
+
+
+
             //4. Lista elemeinek rendezése csökkenőbe Descending függvényt is hozzákell adni, a növekvő alapértelmezett.
 
-            var sortedByYear = games.OrderByDescending(x => x.ReleaseYear);
+            /*var sortedByYear = games.OrderByDescending(x => x.ReleaseYear);
 
             foreach (var game in sortedByYear)
             {
                 Console.WriteLine(game.Title + " - " + game.ReleaseYear);
-            }
+            }*/
 
 
             //3. Döntsük el, hogy van-e játék, amit 1984-ben adtak ki

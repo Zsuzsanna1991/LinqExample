@@ -18,11 +18,25 @@ namespace Linkexamples
          };
         static void Main(string[] args)
         {
+
+
+
+            //Legdrágább játék adatainak a kiszűrése
+
+            var mostExpensiveGamePrice = games.Max(x => x.Price);
+            var mostExpensiveGame = games.Where(x => x.Price == mostExpensiveGamePrice);
+
+            foreach (var item in mostExpensiveGame)
+            {
+                Console.WriteLine(item.Title);
+            }
+
+
+
             //Játékok átlagárának kiszámítása
 
-            var avgPrice = games.Average(x => x.Price);
-            Console.WriteLine(avgPrice);
-
+            /*var avgPrice = games.Average(x => x.Price);
+            Console.WriteLine(avgPrice);*/
 
 
             //4. Lista elemeinek rendezése csökkenőbe Descending függvényt is hozzákell adni, a növekvő alapértelmezett.

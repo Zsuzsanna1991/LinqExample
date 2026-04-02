@@ -18,18 +18,32 @@ namespace Linkexamples
          };
         static void Main(string[] args)
         {
+            //Csoportosítsunk műfajonként játékokat
+            var groupByGenre = games.GroupBy(x => x.Genre);
 
+            foreach (var group in groupByGenre)
+            {
+                Console.WriteLine(group.Key + ": ");
+
+                int db = 0;
+                foreach (var game in group)
+                {
+                    db++;
+                }
+
+                Console.WriteLine(db);
+            }
 
 
             //Legdrágább játék adatainak a kiszűrése
 
-            var mostExpensiveGamePrice = games.Max(x => x.Price);
+            /*var mostExpensiveGamePrice = games.Max(x => x.Price);
             var mostExpensiveGame = games.Where(x => x.Price == mostExpensiveGamePrice);
 
             foreach (var item in mostExpensiveGame)
             {
                 Console.WriteLine(item.Title);
-            }
+            }*/
 
 
 

@@ -10,7 +10,7 @@ namespace Linkexamples
     {
         public static List<Game> games = new List<Game>
          {
-             new Game{Title = "Legend of Zelda", Genre = "Adventure", ReleaseYear = 1986, Rating = 9.5, Price = 60 },
+             new Game{Title = "Legend of Zelda", Genre = "Rpg", ReleaseYear = 1986, Rating = 9.5, Price = 60 },
              new Game{Title = "Super Mario Bros", Genre = "Platformer", ReleaseYear = 1985, Rating = 9.2, Price = 50 },
              new Game{Title = "Elden Ring", Genre = "Rpg", ReleaseYear = 2022, Rating = 9.8, Price = 70 },
              new Game{Title = "Stardew Valley", Genre = "Simulation", ReleaseYear = 2016, Rating = 9.0, Price = 15 },
@@ -18,14 +18,28 @@ namespace Linkexamples
          };
         static void Main(string[] args)
         {
-            //Összes Title tulajdonság a listából
+            //3. 
 
-            var gameTitles = games.Select(x => new {Title = x.Title, Price = x.Price});
+
+            //2. Összes Rpg műfajú játék
+
+            /*var rpgGames = games.Where(x => x.Genre == "Rpg");
+
+            foreach (var item in rpgGames)
+            {
+                Console.WriteLine(item.Title + " - " + item.Genre);
+            }*/
+
+
+
+            //1. Összes Title tulajdonság a listából
+
+            /*var gameTitles = games.Select(x => new {Title = x.Title, Price = x.Price});
 
             foreach (var item in gameTitles)
             {
                 Console.WriteLine(item);
-            }
+            }*/
 
         }
     }
